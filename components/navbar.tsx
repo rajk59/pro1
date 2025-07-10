@@ -1,37 +1,19 @@
-// "use client";
-// import Link from "next/link";
-// import { usePathname } from "next/navigation";
+"use client";
 
-// export default function Navbar() {
-//   const pathname = usePathname();
+import Link from "next/link";
 
-//   const navItems = [
-//     { label: "Home", href:"/home" },
-//     { label: "Menu", href:"/menu" },
-//     { label: "Pre-Order", href:"/preorder" },
-//     { label: "Delivery", href:"/delivery" },
-//     { label: "Contact", href:"/contact" },
-//   ];
-
-//   return (
-//     <nav className="fixed top-0 left-0 right-0 bg-black bg-opacity-80 text-white z-50 shadow-md">
-//       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-//         <h1 className="text-xl font-bold text-yellow-400">Hotel Chirag</h1>
-//         <ul className="flex gap-6 text-sm sm:text-base">
-//           {navItems.map((item) => (
-//             <li key={item.href}>
-//               <Link
-//                 href={item.href}
-//                 className={`hover:text-yellow-400 transition ${
-//                   pathname === item.href ? "text-yellow-400 font-semibold" : ""
-//                 }`}
-//               >
-//                 {item.label}
-//               </Link>
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//     </nav>
-//   );
-// }
+export default function Navbar() {
+  return (
+    <nav className="bg-white shadow-md fixed top-0 w-full z-50">
+      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <h1 className="text-2xl font-bold text-yellow-600">Hotel Chirag</h1>
+        <div className="space-x-6 text-gray-800 font-medium">
+          <Link href="/">Home</Link>
+          <Link href="/menu">Menu</Link>
+          <Link href="/gallery">Gallery</Link>
+          <Link href="/delivery">Delivery</Link>
+        </div>
+      </div>
+    </nav>
+  );
+}
