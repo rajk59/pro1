@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // Step 1: तुमचे multiple images इथे टाका
-const heroImages = ["/home.jpg", "/ho2.jpg", "/ho1.jpg","/m.jpg","/a1","/a2"];
+const heroImages = ["/home.jpg", "/ho2.jpg", "/ho1.jpg","/m.jpg","/a1.jpg","/a2.jpg"];
 
 export default function HomePage() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -64,3 +64,9 @@ export default function HomePage() {
     </main>
   );
 }
+
+
+
+
+
+

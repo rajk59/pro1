@@ -20,7 +20,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto flex justify-between items-center">
             <h1 className="text-xl font-bold">Hotel chirag🍛 </h1>
             <div className="space-x-4">
-              <Link href="/home" className="hover:underline">Home</Link>
+              <Link href="/" className="hover:underline">Home</Link>
               <Link href="/menu" className="hover:underline">Menu</Link>
               <Link href="/delivery" className="hover:underline">Delivery</Link>
               <Link href="/contact" className="hover:underline">Contact</Link>
