@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <h1 className="text-2xl font-bold text-yellow-600">Hotel Chirag</h1>
         <div className="space-x-6 text-gray-800 font-medium">
-          <Link href="/">Home</Link>
+          <Link href="/home">Home</Link>
           <Link href="/menu">Menu</Link>
           <Link href="/gallery">Gallery</Link>
           <Link href="/delivery">Delivery</Link>
@@ -17,3 +17,4 @@ export default function Navbar() {
     </nav>
   );
 }
+

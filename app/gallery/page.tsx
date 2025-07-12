@@ -4,10 +4,14 @@ import Image from "next/image";
 
 const galleryImages = [
   "/vada-pav.jpg",
+  "/bhaji.jpg",
+  "/maggi.jpg",
   "/paneer.jpg",
   "/vegthali.jpg",
   "/pithala.jpg",
   "/solk.jpg",
+  "/drink.jpg",
+
 ];
 
 export default function GalleryPage() {
