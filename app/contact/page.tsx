@@ -52,7 +52,7 @@ export default function ContactPage() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.5418775397167!2d73.44422711437668!3d18.509936273041066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2cfbca2fdf9d3%3A0xb5976a2b4dbac1cb!2sHP%20Petrol%20Pump%20-%20Shivkrupa%20Petroleum!5e0!3m2!1sen!2sin!4v1720598450000!5m2!1sen!2sin"
           width="100%"
           height="100%"
-          allowFullScreen=""
+          allowFullScreen
           loading="lazy"
           className="rounded-xl shadow"
         ></iframe>
